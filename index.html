@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Landing Page</title>
+        
+        <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sahitya&display=swap" rel="stylesheet">
+        <!-- Estilos -->
+        <link rel="stylesheet" href="assets/css/variables.css">
+        <link rel="stylesheet" href="assets/css/elements.css">
+        <link rel="stylesheet" href="assets/css/classes.css">
+        <link rel="stylesheet" href="assets/css/menu.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+
+    <body>
+            <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+            <label class="close-menu-label" for="close-menu" title="Close menu"></label>
+
+            <aside class="menu">
+                <div class="main-content-menu menu-content white-bg">
+
+                    <h1 onclick="getElementById('close-menu').checked=false;">
+                        <a href="#home"><img class="logo" src="assets/img/img/logo.png" alt="Logo"></a>
+                    </h1>
+
+                    <div>
+                        <nav>
+                            <ul onclick="getElementById('close-menu').checked=false;">
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#section-2">Nossos Planos alimentares</a></li>
+                                <li><a href="#section-3">Quem somos nós?</a></li>
+                                <li><a href="#section-4">Adiquira seu plano</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    
+                </div>
+            </aside>
+
+            <section id="home" class="section1 paddingBottom">
+                <div class="menu-spacing"></div>
+                <div class="subSection sub-Section-Grid">
+                    
+                    <div class="section-img small-img">
+                        <img class="img" src="assets/img/img/section1/Expert1.png"  alt="img nutricionista">
+                    </div>
+
+                    <div class="intro-text-content">
+                        <h2>Conheça nossos planos nutricionais e tenha mais saúde e qualidade de vida.</h2>
+                        <p>Tenha uma nutricionista que irá te acompanhar em suas metas que te posibilitará ter o corpo dos sonhos.</p>
+                        
+                        <div class="s1button">
+                            <a href="#section-2"><button type="submit">Conhecer os planos</button></a>
+                        </div>   
+                    </div>
+                    
+                    <div class="section-img large-img">
+                    <img class="img" src="assets/img/img/section1/Expert1.png"  alt="img nutricionista">
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="section-2" class="section2 paddingSection paddingBottom">
+                
+                <div class="sub-Section-Grid main-content grid-one-content">
+                    
+                    <h2 class="grid-main-titulo">Nossos Planos alimentares</h2>
+                    
+                    <div class="grid">
+                        
+                        <article>
+                            <a href="#section-4"><img class="imgProduct" src="assets/img/img/section2/1.png" alt="img plano de emagrecimento"></a>
+                            <div class="border">
+
+                                <h3 class="titulo-grid">Plano emagreça com saúde</h3>
+                                <p class="p">Dietas revolucionárias não existem e estão deixando a população cada vez mais obesa e transtornada.
+                                    Busque uma
+                                    alimentação natural e ligada às suas referências pessoais.
+                                </p>
+                                
+                            </div>
+                        </article>
+
+                        <article>
+                            <a href="#section-4"><img class="imgProduct" src="assets/img/img/section2/2.png" alt="img Plano ganhe massa com eficiência"></a>
+                            <div class="border">
+                                <h3 class="titulo-grid">Plano ganhe massa com eficiência</h3>
+                                <p class="p">O ganho de massa muscular é muito diferente do processo de perda de peso. É preciso comer em quantidades adequadas e escolher bem os alimentos para evitar a necessidade do uso de suplementos alimentares.</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <a href="#section-4"><img class="imgProduct" src="assets/img/img/section2/3.png" alt="img Plano nutrição infantil"></a>
+                            <div class="border">
+                                <h3 class="titulo-grid">Plano nutrição infantil</h3>
+                                <p class="p">O ingestão de alimentos saudáveis, como frutas, verduras e legumes podem ser fundamental para o crescimento dos pequenos, combate à obesidade, formação do paladar e, até mesmo, evitar tipos de alergias alimentares.</p>
+                            </div>
+                        </article>
+            
+                    </div>
+                </div>
+            </section>
+
+            <section id="section-3" class="section3 paddingSection paddingBottom">
+                <div>
+                    <div class="subSection sub-Section-Grid">
+
+                        <div class="section-img">
+                            <img src="assets/img/img/section3/Expert2.png" class="img" alt="img nutricionista">
+                        </div>
+                        <div class="intro-text-content">
+
+                            <h2>Quem sou eu?</h2>
+
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eos numquam quis voluptates vero culpa quia quisquam perspiciatis aperiam omnis, porro optio, sed recusandae! Ipsum sequi reiciendis quam nemo pariatur!</P>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, eius sed esse dignissimos nesciunt obcaecati nostrum dolores? Harum quas, laborum dolore pariatur corrupti architecto, necessitatibus, magnam quis perspiciatis ut neque.</P>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam praesentium ducimus quisquam nesciunt est? Cumque, quae! Accusamus assumenda ipsa eum. Aliquid amet cum nesciunt? Velit rerum deserunt distinctio pariatur sit.</P>
+                            <div class="s1button">
+                                <a href="#section-4"><button type="submit" >Fazer inscrição</button></a>
+                            </div>
+                        </div> 
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section id="section-4" class="section4 paddingSection paddingBottom">
+                
+                    <div class="subSection sub-Section-Grid">
+            
+                        <div class="intro-text-content">
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eos numquam quis voluptates vero culpa
+                                quia quisquam perspiciatis aperiam omnis, porro optio, sed recusandae! Ipsum sequi reiciendis quam
+                                nemo pariatur!</P>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, eius sed esse dignissimos
+                                nesciunt obcaecati nostrum dolores? Harum quas, laborum dolore pariatur corrupti architecto,
+                                necessitatibus, magnam quis perspiciatis ut neque.</P>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam praesentium ducimus quisquam
+                                nesciunt est? Cumque, quae! Accusamus assumenda ipsa eum. Aliquid amet cum nesciunt? Velit rerum
+                                deserunt distinctio pariatur sit.</P>
+                        </div>
+            
+                        <div>
+                            <h2>Adiquira seu plano</h2>
+                            <form action="#section4" class="form">
+                                <label for="nome">Nome *</label>
+                                <br><br>
+                                <input class="input" type="text" id="nome" name="nome">
+                                <br><br>
+                            
+                                <label for="telefone">Telefone *</label>
+                                <br><br>
+                                <input class="input" type="text" id="telefone" name="telefone">
+                                <br><br>
+                            
+                                <label for="email">E-mail *</label>
+                                <br><br>
+                                <input class="input" type="text" id="email" name="email">
+                                <br><br>
+                            
+                                <label for="plano">Escolha seu plano *</label>
+                                <br><br>
+                                <select name="select" id="plano" required>
+                                    <option value="plano1" selected>Plano emagreça com saúde</option>
+                                    <option value="plano2">Plano ganhe massa com eficiência</option>
+                                    <option value="plano3">Plano nutrição infantil</option>
+                                </select>
+                                <br><br>
+                                <input type="submit" value="Quero adiquirir meu plano nutricional" class="s4button">
+                            </form>
+                        </div>
+                    </div>
+            </section>
+            
+        <footer id="footer" class="footer white-bg">
+            <p>© Nutricionista Carla Xavier Todos os direitos reservados Termos de uso . Política de privacidade</p>
+        </footer>
+
+        <a class="back-to-top" href="#home">▶</a>
+    </body>
+</html>

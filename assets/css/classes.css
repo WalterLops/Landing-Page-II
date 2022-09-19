@@ -1,0 +1,119 @@
+.white-bg {
+    background: var(--color-seven);
+    color: var(--six-color);
+}
+
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 10rem var(--gap);
+}
+
+.main-content-menu{
+    margin: 0 auto;
+}
+
+.section {
+    min-height: 100vh;
+}
+
+.section1 {
+    min-height: 100vh;
+    background-color: var(--primary-color);
+    background-size: cover;
+    background-position: center center;
+    color: var(--tertiary-color);
+}
+
+.subSection {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0rem var(--gap);
+}
+
+.section2 {
+    min-height: 100vh;
+    background-color: var(--six-color);
+    background-size: cover;
+    background-position: center center;
+    color: var(--secondary-color);
+}
+
+.sub-Section-Grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: var(--gap);
+    min-height: 100vh;
+}
+
+.section-img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.s1button {
+    background: none;
+    color: var(--tertiary-color);
+    cursor: pointer;
+    outline: none;
+}
+
+.s1button button:hover {
+    background: var(--tertiary-color);
+    color: var(--secondary-color);
+}
+
+.s1button button {
+    border: none;
+    border-radius: 1em;
+    background: var(--secondary-color);
+    color: var(--tertiary-color);
+    padding: 1.5rem 2rem;
+    font-size: 10rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+    padding: 1.5rem 2rem;
+    font-size: 3rem;
+    outline: none;
+}
+
+.section3 {
+    min-height: 100vh;
+    background-color: var(--tertiary-color);
+    background-size: cover;
+    background-position: center center;
+    color: #000000;
+}
+
+.section3-img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.section4 {
+    min-height: 100vh;
+    background-image: url('../img/img/section4/bgSection4.png');
+    background-size: cover;
+    background-position: center center;
+    color: var(--tertiary-color);
+}
+
+body .full-width {
+    width: 100%;
+    flex: 1 1 100%;
+}
