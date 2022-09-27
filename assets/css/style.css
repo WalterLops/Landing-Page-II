@@ -93,11 +93,29 @@
 
 
 .s4button:hover {
-    background: var(--tertiary-color);
-    color: var(--secondary-color);
+    background: var(--secondary-color);
+    color: var(--color-seven);
     font-weight: bold;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
     cursor: pointer;
+}
+
+.imgProduct:hover{
+    color: rgba(255, 255, 255, 0.596);
+    filter: opacity(0.4) drop-shadow(0 0 0 var(--color-seven));
+}
+
+.border:hover{
+    color: var(--color-seven);
+    border-color: var(--color-seven);
+}
+    
+.input:hover{
+    background-color: var(--color-seven);
+}
+
+#plano:hover{
+    background-color: var(--secondary-color);
 }
 
 .paddingSection {
